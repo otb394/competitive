@@ -1,0 +1,21 @@
+18 S Semi-palindromic
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+0
+8 src/code
+15 -Xmx256M -Xss8M
+4 Main
+21 code.SSemipalindromic
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2018.04.09
+42 CodeChef - April Challenge 2018 Division 2
+1
+18 FastIO.InputReader
+19 FastIO.OutputWriter
+0
+0

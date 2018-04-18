@@ -1,0 +1,99 @@
+19 Count Good Prefixes
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+10
+0
+19 3
+aba 2
+baa 3
+bba 3
+5 5
+6
+0
+0
+1
+17 2
+aaaaa 1
+aaaaa 5
+4 5
+25
+0
+2
+17 2
+bbbbb 1
+bbbbb 5
+3 0
+0
+0
+3
+11 2
+ab 1
+ab 5
+3 1
+5
+0
+4
+11 2
+ba 1
+ba 5
+3 0
+0
+0
+5
+17 2
+bbbba 1
+bbbba 5
+3 0
+0
+0
+6
+23 2
+babababa 1
+babababa 5
+3 0
+0
+0
+7
+37 3
+bbbbaaaaa 1
+bbbbaaaaa 3
+bbbbaaaaa 5
+6 1
+7
+21
+0
+8
+17 4
+a 1
+b 1
+a 2
+b 2
+7 1
+0
+2
+0
+0
+9
+33 2
+aaaaabbbbbbbb 1
+aaaaabbbbbbbb 2
+4 9
+12
+1
+8 src/code
+7 -Xmx64M
+4 Main
+22 code.CountGoodPrefixes
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2018.04.10
+31 April Challenge 2018 Division 2
+1
+18 FastIO.InputReader
+19 FastIO.OutputWriter
+0
+0

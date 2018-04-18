@@ -1,0 +1,42 @@
+16 Highway Crossing
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+74 3
+2 6 6
+5 10
+1 0
+-1 23
+4 7
+1 8 177
+190
+0
+4201
+21
+1 1 1000
+100
+1
+-100000
+10
+30 4.000000
+44.346053
+2000.100000
+1
+8 src/code
+7 -Xmx64M
+4 Main
+20 code.HighwayCrossing
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2018.04.10
+31 April Challenge 2018 Division 2
+1
+18 FastIO.InputReader
+19 FastIO.OutputWriter
+0
+0

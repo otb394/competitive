@@ -1,0 +1,47 @@
+17 C - Make a Square
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+5
+0
+5 8314
+
+2 2
+
+1
+1
+4 625
+
+2 0
+
+1
+2
+4 333
+
+3 -1
+
+1
+3
+9 200000001
+1 8
+1
+4
+9 800000001
+1 7
+1
+8 src/code
+8 -Xmx256M
+4 Main
+10 code.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2018.04.10
+50 Educational Codeforces Round 42 (Rated for Div. 2)
+1
+18 FastIO.InputReader
+19 FastIO.OutputWriter
+0
+0
