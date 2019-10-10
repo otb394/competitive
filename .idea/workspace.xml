@@ -2,15 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1da6c69-ecc1-4a2f-9c37-46a4a21a84ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Competitive.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/CHelper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lombok.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.10 - Single Round Match 768 - Sponsored by Google/Alpha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.10 - Single Round Match 768 - Sponsored by Google/Alpha.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.10 - TopCoder SRM #768/BinaryDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.10 - TopCoder SRM #768/BinaryDistance.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.10 - TopCoder SRM #768/MeanMedianCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.10 - TopCoder SRM #768/MeanMedianCount.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/code/BOAChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/code/datastructure/Prefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chelper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chelper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/FastIO/InputReader$SpaceCharFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/FastIO/InputReader$SpaceCharFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/FastIO/InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/FastIO/InputReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/FastIO/OutputWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/FastIO/OutputWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$InputReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$TaskA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$TaskA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$InputReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$TaskC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$TaskC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/AverageOfPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/AverageOfPairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndArrayChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndArrayChallenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndSameOldRecurrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndSameOldRecurrence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndSameOldRecurrence2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndSameOldRecurrence2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/ChefAtTheFoodFair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/ChefAtTheFoodFair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/CountGoodPrefixes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/CountGoodPrefixes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/Cutting Plants.task" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/Cutting Plants.task" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/CuttingPlants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/CuttingPlants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/EnormousInputTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/EnormousInputTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/HighwayCrossing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/HighwayCrossing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/SSemipalindromic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/SSemipalindromic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/SavingTheUniverseAgain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/SavingTheUniverseAgain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/TaskA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/TaskA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/TaskB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/TaskB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/TaskC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/TaskC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/TaskD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/TaskD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/VaibhavAndMinisters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/VaibhavAndMinisters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/WeightOfNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/WeightOfNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/Workers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/Workers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/datastructure/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/datastructure/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/util/MathUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/util/MathUtility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Main.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,16 +51,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Qm0hSeZeffMk1JnE2JXgyEqoos" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../College/ASE F19/homework/hw/1/src/Main.java" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Software/chelper/lib/json-20180130.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,6 +87,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Competitive" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,6 +113,22 @@
       <updated>1568360582712</updated>
       <workItem from="1568360586371" duration="319000" />
       <workItem from="1568360926715" duration="138000" />
+      <workItem from="1568759542251" duration="1840000" />
+      <workItem from="1568808784909" duration="163000" />
+      <workItem from="1568925626720" duration="17000" />
+      <workItem from="1568932854028" duration="245000" />
+      <workItem from="1569178158929" duration="1633000" />
+      <workItem from="1569198509357" duration="3000" />
+      <workItem from="1569251773233" duration="20000" />
+      <workItem from="1569540176170" duration="487000" />
+      <workItem from="1569581781412" duration="11000" />
+      <workItem from="1570719090725" duration="7713000" />
+      <workItem from="1570730425078" duration="1158000" />
+      <workItem from="1570731599336" duration="319000" />
+      <workItem from="1570731941896" duration="489000" />
+      <workItem from="1570732454864" duration="127000" />
+      <workItem from="1570732610970" duration="87000" />
+      <workItem from="1570732722126" duration="5813000" />
     </task>
     <servers />
   </component>

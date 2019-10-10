@@ -1,5 +1,2 @@
-37 src/code/D. Neko and Aki's Prank.json
-3
+28 src/code/BinaryDistance.json
 0
-1
-2
