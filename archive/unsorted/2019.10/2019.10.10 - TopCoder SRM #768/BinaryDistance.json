@@ -1,0 +1,51 @@
+{
+  "name" : "BinaryDistance",
+  "signature" : {
+    "name" : "maxDist",
+    "result" : "int",
+    "arguments" : [ "int", "int" ],
+    "argumentNames" : [ "N", "V" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "6", "2" ],
+    "result" : "3",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "6", "6" ],
+    "result" : "4",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "5", "4" ],
+    "result" : "3",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "2", "2" ],
+    "result" : "1",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "1000000000", "1" ],
+    "result" : "29",
+    "index" : 4,
+    "active" : true
+  }, {
+    "arguments" : [ "20", "7" ],
+    "result" : "6",
+    "index" : 5,
+    "active" : true
+  }, {
+    "arguments" : [ "12", "4" ],
+    "result" : "5",
+    "index" : 6,
+    "active" : true
+  } ],
+  "date" : "2019.10.10",
+  "contestName" : "TopCoder SRM #768",
+  "testClasses" : [ ],
+  "fqn" : "code.BinaryDistance",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

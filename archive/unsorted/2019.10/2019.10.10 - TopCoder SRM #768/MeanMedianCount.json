@@ -1,0 +1,51 @@
+{
+  "name" : "MeanMedianCount",
+  "signature" : {
+    "name" : "getCount",
+    "result" : "int",
+    "arguments" : [ "int", "int", "int" ],
+    "argumentNames" : [ "N", "needMean", "needMedian" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "3", "9", "10" ],
+    "result" : "10",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "3", "7", "8" ],
+    "result" : "162",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "5", "10", "8" ],
+    "result" : "1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "5", "7", "1" ],
+    "result" : "14874",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "49", "0", "0" ],
+    "result" : "21051900",
+    "index" : 4,
+    "active" : true
+  }, {
+    "arguments" : [ "1", "4", "8" ],
+    "result" : "3",
+    "index" : 5,
+    "active" : true
+  }, {
+    "arguments" : [ "1", "9", "5" ],
+    "result" : "2",
+    "index" : 6,
+    "active" : true
+  } ],
+  "date" : "2019.10.10",
+  "contestName" : "TopCoder SRM #768",
+  "testClasses" : [ ],
+  "fqn" : "code.MeanMedianCount",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

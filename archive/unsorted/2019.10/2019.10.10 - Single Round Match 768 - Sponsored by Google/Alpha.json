@@ -1,0 +1,51 @@
+{
+  "name" : "Alpha",
+  "signature" : {
+    "name" : "maxPref",
+    "result" : "int",
+    "arguments" : [ "String" ],
+    "argumentNames" : [ "s" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "abctyf" ],
+    "result" : "3",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "abcdefghijklmnopqrstuvwxyz" ],
+    "result" : "26",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "zyx" ],
+    "result" : "0",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "abcdegfhijk" ],
+    "result" : "5",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "ba" ],
+    "result" : "0",
+    "index" : 4,
+    "active" : true
+  }, {
+    "arguments" : [ "aabc" ],
+    "result" : "1",
+    "index" : 5,
+    "active" : true
+  }, {
+    "arguments" : [ "abcdefghijklmno" ],
+    "result" : "15",
+    "index" : 6,
+    "active" : true
+  } ],
+  "date" : "2019.10.10",
+  "contestName" : "Single Round Match 768 - Sponsored by Google",
+  "testClasses" : [ ],
+  "fqn" : "code.Alpha",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}
