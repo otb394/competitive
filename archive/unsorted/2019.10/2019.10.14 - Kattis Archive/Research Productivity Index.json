@@ -1,0 +1,44 @@
+{
+  "name" : "Research Productivity Index",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n30 50 70 60 90\n",
+    "output" : "2.220889579\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n30 90 30 90 30 90\n",
+    "output" : "2.599738456\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4\n10 10 10 10\n",
+    "output" : "0.368937005\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "code.ResearchProductivityIndex",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.10.14",
+  "contestName" : "Kattis Archive",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

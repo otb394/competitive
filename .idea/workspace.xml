@@ -2,48 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1da6c69-ecc1-4a2f-9c37-46a4a21a84ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.10 - Single Round Match 768 - Sponsored by Google/Alpha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.10 - Single Round Match 768 - Sponsored by Google/Alpha.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.10 - TopCoder SRM #768/BinaryDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.10 - TopCoder SRM #768/BinaryDistance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.10 - TopCoder SRM #768/MeanMedianCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.10 - TopCoder SRM #768/MeanMedianCount.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code/BOAChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code/datastructure/Prefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.11 - October Challenge 2019 Division 2/Operations on a Matrix.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.11 - October Challenge 2019 Division 2/OperationsOnAMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.11 - October Challenge 2019 Division 2/Phone Prices.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.11 - October Challenge 2019 Division 2/PhonePrices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.14 - Kattis Archive/Exchange Rates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.14 - Kattis Archive/ExchangeRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.14 - Kattis Archive/Research Productivity Index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.14 - Kattis Archive/ResearchProductivityIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.20 - Codeforces Round #594 (Div. 2)/A. Integer Points.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.20 - Codeforces Round #594 (Div. 2)/AIntegerPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.20 - Codeforces Round #594 (Div. 2)/B. Grow The Tree.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.20 - Codeforces Round #594 (Div. 2)/BGrowTheTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.20 - Codeforces Round #594 (Div. 2)/C. Ivan the Fool and the Probability Theory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.20 - Codeforces Round #594 (Div. 2)/CIvanTheFoolAndTheProbabilityTheory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.20 - Codeforces Round #594 (Div. 2)/D1. The World Is Just a Programming Task (Easy Version).json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.20 - Codeforces Round #594 (Div. 2)/D1TheWorldIsJustAProgrammingTaskEasyVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.20 - Kattis Archive/Alphabet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.20 - Kattis Archive/Alphabet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.20 - Kattis Archive/Cent Savings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.20 - Kattis Archive/CentSavings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.21 - CodeChef - Practice(Easy)/Array Modification.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2019.10/2019.10.21 - CodeChef - Practice(Easy)/ArrayModification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/code/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chelper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chelper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/FastIO/InputReader$SpaceCharFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/FastIO/InputReader$SpaceCharFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/FastIO/InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/FastIO/InputReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/FastIO/OutputWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/FastIO/OutputWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$InputReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$TaskA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$TaskA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$InputReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$TaskC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$TaskC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/AverageOfPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/AverageOfPairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndArrayChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndArrayChallenge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndSameOldRecurrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndSameOldRecurrence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndSameOldRecurrence2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndSameOldRecurrence2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/ChefAtTheFoodFair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/ChefAtTheFoodFair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/CountGoodPrefixes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/CountGoodPrefixes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/Cutting Plants.task" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/Cutting Plants.task" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/CuttingPlants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/CuttingPlants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/EnormousInputTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/EnormousInputTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/HighwayCrossing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/HighwayCrossing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/SSemipalindromic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/SSemipalindromic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/SavingTheUniverseAgain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/SavingTheUniverseAgain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/TaskA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/TaskA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/TaskB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/TaskB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/TaskC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/TaskC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/TaskD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/TaskD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/VaibhavAndMinisters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/VaibhavAndMinisters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/WeightOfNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/WeightOfNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/Workers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/Workers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/datastructure/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/datastructure/Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/util/MathUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/util/MathUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/BinaryDistance.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,8 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.Result" />
+      <module name="Competitive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Result" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -128,7 +126,12 @@
       <workItem from="1570731941896" duration="489000" />
       <workItem from="1570732454864" duration="127000" />
       <workItem from="1570732610970" duration="87000" />
-      <workItem from="1570732722126" duration="5813000" />
+      <workItem from="1570732722126" duration="6624000" />
+      <workItem from="1570770686395" duration="1662000" />
+      <workItem from="1570777804123" duration="442000" />
+      <workItem from="1570920939266" duration="6590000" />
+      <workItem from="1571090371890" duration="10394000" />
+      <workItem from="1571554381517" duration="21306000" />
     </task>
     <servers />
   </component>
