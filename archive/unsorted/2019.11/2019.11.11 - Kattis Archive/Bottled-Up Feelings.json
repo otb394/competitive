@@ -1,0 +1,44 @@
+{
+  "name" : "Bottled-Up Feelings",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1000 9 7\n",
+    "output" : "108 4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1000 900 7\n",
+    "output" : "Impossible\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1000 10 7\n",
+    "output" : "100 0\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx2048M",
+  "mainClass" : "Main",
+  "taskClass" : "code.BottledUpFeelings",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.11.11",
+  "contestName" : "Kattis Archive",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,13 +1,26 @@
 import java.io.OutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.InputMismatchException;
+import java.util.HashMap;
+import java.util.function.Supplier;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Map;
+import java.io.OutputStreamWriter;
+import java.util.LinkedList;
 import java.io.OutputStream;
 import java.io.PrintWriter;
+import java.util.stream.LongStream;
 import java.io.BufferedWriter;
-import java.io.Writer;
-import java.io.OutputStreamWriter;
-import java.util.InputMismatchException;
+import java.util.Collection;
+import java.util.Set;
 import java.io.IOException;
+import java.util.List;
+import java.util.stream.Stream;
+import java.io.Writer;
+import java.util.Optional;
+import java.util.Queue;
 import java.io.InputStream;
 
 /**
@@ -16,64 +29,55 @@ import java.io.InputStream;
  *
  * @author out_of_the_box
  */
-public class Main {
+public class Solution {
     public static void main(String[] args) {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
-        ArrayModification solver = new ArrayModification();
+        Bundling solver = new Bundling();
         int testCount = Integer.parseInt(in.next());
         for (int i = 1; i <= testCount; i++)
             solver.solve(i, in, out);
         out.close();
     }
 
-    static class ArrayModification {
+    static class Bundling {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
             int n = in.nextInt();
-            long k = in.nextLong();
-            long[] a = in.nextLongArray(n);
-            long p = k / n;
-            long q = k % n;
-            long[] f = new long[n];
+            int k = in.nextInt();
+            List<String> strings = new ArrayList<>();
             for (int i = 0; i < n; i++) {
-                f[i] = p + ((i < q) ? 1 : 0);
+                strings.add(in.nextString());
             }
-            long[] b = new long[n];
-            for (int i = 0; i < n; i++) {
-                int other = n - 1 - i;
-                if (i == other) {
-                    b[i] = (f[i] > 0) ? 0 : a[i];
-                } else if (i < other) {
-                    int rem = (int) (f[i] % 3);
-                    switch (rem) {
-                        case 0:
-                            b[i] = a[i];
-                            break;
-                        case 1:
-                            b[i] = a[i] ^ a[other];
-                            break;
-                        case 2:
-                        default:
-                            b[i] = a[other];
-                    }
-                } else {
-                    int rem = (int) (f[i] % 3);
-                    switch (rem) {
-                        case 0:
-                            b[i] = a[i];
-                            break;
-                        case 1:
-                            b[i] = a[other];
-                            break;
-                        case 2:
-                        default:
-                            b[i] = a[i] ^ a[other];
-                    }
+            long ans = solve(n, k, strings);
+            out.println("Case #" + testNumber + ": " + ans);
+        }
+
+        private long solve(int n, int k, List<String> strings) {
+            Trie<Bundling.Vertex, Character> trie = new Trie<>(Bundling.Vertex::new);
+
+            for (String s : strings) {
+                int len = s.length();
+                Bundling.Vertex current = trie.getRoot();
+                for (int i = 0; i < len; i++) {
+                    Bundling.Vertex nd = Optional.ofNullable(current.get(s.charAt(i))).orElseGet(Bundling.Vertex::new);
+                    nd.count++;
+                    current.put(s.charAt(i), nd);
+                    current = nd;
                 }
             }
-            out.println(b);
+            return trie.stream().mapToLong(v -> v.count / k).sum();
+        }
+
+        public static class Vertex extends Trie.Node<Bundling.Vertex, Character> {
+            public int count;
+
+            public Vertex() {
+                super();
+                this.count = 0;
+            }
+
         }
 
     }
@@ -129,28 +133,6 @@ public class Main {
             return res * sgn;
         }
 
-        public long nextLong() {
-            int c = read();
-            while (isSpaceChar(c)) {
-                c = read();
-            }
-            int sgn = 1;
-            if (c == '-') {
-                sgn = -1;
-                c = read();
-            }
-            long res = 0;
-            do {
-                if (c < '0' || c > '9') {
-                    throw new InputMismatchException();
-                }
-                res *= 10;
-                res += c - '0';
-                c = read();
-            } while (!isSpaceChar(c));
-            return res * sgn;
-        }
-
         public String nextString() {
             int c = read();
             while (isSpaceChar(c)) {
@@ -181,14 +163,59 @@ public class Main {
             return nextString();
         }
 
-        public long[] nextLongArray(int n) {
-            long[] array = new long[n];
-            for (int i = 0; i < n; ++i) array[i] = nextLong();
-            return array;
-        }
-
         public interface SpaceCharFilter {
             public boolean isSpaceChar(int ch);
+
+        }
+
+    }
+
+    static class Trie<V extends Trie.Node<V, E>, E> {
+        private V root;
+        private Supplier<V> nodeSupplier;
+
+        public Trie(Supplier<V> nodeSupplier) {
+            this.nodeSupplier = nodeSupplier;
+            this.root = nodeSupplier.get();
+        }
+
+        public V getRoot() {
+            return root;
+        }
+
+        public Stream<V> stream() {
+            Queue<V> queue = new LinkedList<>();
+            Set<V> discovered = new HashSet<>();
+            discovered.add(root);
+            queue.add(root);
+            List<V> ret = new ArrayList<>();
+            while (!queue.isEmpty()) {
+                V element = queue.poll();
+                ret.add(element);
+                for (V child : element.nextMap.values()) {
+                    if (!discovered.contains(child)) {
+                        discovered.add(child);
+                        queue.add(child);
+                    }
+                }
+            }
+            return ret.stream();
+        }
+
+        public static class Node<V, E> {
+            public Map<E, V> nextMap;
+
+            public Node() {
+                this.nextMap = new HashMap<>();
+            }
+
+            public void put(E edge, V node) {
+                nextMap.put(edge, node);
+            }
+
+            public V get(E edge) {
+                return nextMap.get(edge);
+            }
 
         }
 
@@ -205,17 +232,17 @@ public class Main {
             this.writer = new PrintWriter(writer);
         }
 
-        public void print(long[] array) {
-            for (int i = 0; i < array.length; i++) {
+        public void print(Object... objects) {
+            for (int i = 0; i < objects.length; i++) {
                 if (i != 0) {
                     writer.print(' ');
                 }
-                writer.print(array[i]);
+                writer.print(objects[i]);
             }
         }
 
-        public void println(long[] array) {
-            print(array);
+        public void println(Object... objects) {
+            print(objects);
             writer.println();
         }
 
