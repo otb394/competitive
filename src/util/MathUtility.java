@@ -48,6 +48,13 @@ public class MathUtility {
         return hcf(b%a, a);
     }
 
+    /**
+     * Finds highest common factor of the array of numbers
+     *
+     * @param arr Array of numbers
+     * @param n Number of numbers in the array
+     * @return Highest common factor
+     */
     public static int hcf(int[] arr, int n) {
         int result = arr[0];
         for(int i=1;i<n;i++) {
@@ -63,6 +70,13 @@ public class MathUtility {
         return hcf(b%a, a);
     }
 
+    /**
+     * Finds highest common factor of the array of numbers
+     *
+     * @param arr Array of numbers
+     * @param n Number of numbers in the array
+     * @return Highest common factor
+     */
     public static long hcf(long[] arr, int n) {
         long result = arr[0];
         for(int i=1;i<n;i++) {
