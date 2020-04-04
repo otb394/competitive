@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1da6c69-ecc1-4a2f-9c37-46a4a21a84ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/code/algorithms/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/datastructure/AdjacencyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/AdjacencyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/datastructure/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/datastructure/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/datastructure/Prefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Prefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/datastructure/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/datastructure/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UnionFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/MathUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MathUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Trie.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Competitive" />
@@ -131,7 +125,9 @@
       <workItem from="1580493435831" duration="383000" />
       <workItem from="1582399598413" duration="605000" />
       <workItem from="1584849508348" duration="9556000" />
-      <workItem from="1584927555800" duration="5315000" />
+      <workItem from="1584927555800" duration="6101000" />
+      <workItem from="1585258810815" duration="673000" />
+      <workItem from="1586033770513" duration="231000" />
     </task>
     <servers />
   </component>

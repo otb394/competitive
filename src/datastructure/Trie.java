@@ -116,5 +116,12 @@ public class Trie<V extends Trie.Node<V,E>, E> {
         public V get(E edge) {
             return nextMap.get(edge);
         }
+
+        /**
+         * Returns all the child nodes of this node as a Stream. Same order as internal map.
+         */
+        public Stream<V> getChildren() {
+            return nextMap.values().stream();
+        }
     }
 }
