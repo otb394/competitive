@@ -1,0 +1,34 @@
+{
+  "name" : "B. Kana and Dragon Quest game",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7\n100 3 4\n189 3 4\n64 2 3\n63 2 3\n30 27 7\n10 9 1\n69117 21 2\n",
+    "output" : "YES\nNO\nNO\nYES\nYES\nYES\nYES\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "code.BKanaAndDragonQuestGame",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.04.15",
+  "contestName" : "Codeforces - Codeforces Round #635 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

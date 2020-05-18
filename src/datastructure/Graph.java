@@ -1,29 +1,29 @@
-package code.datastructure;
+package datastructure;
+
+import java.util.List;
 
 /**
- * Represents a graph where each node is numbered from 0 to size-1 and has a value of type V and every edge has value E
+ * Interface for graph implementations
+ *
+ * @param <V> Represents vertex of the graph
+ * @param <E> Represents an edge in the graph. Should be a subclass of Edge inner class
  */
-public interface Graph<V,E> {
-    int size();
+public interface Graph<V, E extends Graph.Edge<V,E>> {
+    Graph<V,E> addVertex(V v);
+    Graph<V,E> addEdge(E e);
+    List<E> getEdges(V vertex);
+    List<V> getVertices();
+    E getReverse(E e);
 
-    /**
-     * Sets the value of the node at the given index to the given value.
-     *
-     * @param index
-     * @param value
-     */
-    void setVertex(int index, V value);
+    abstract class Edge<V, E extends Edge<V,E>> {
+        public V first;
+        public V second;
 
-    /**
-     * Sets an edge from node p (index) to node q (index) with the given value.
-     * Replaces the value of an existing edge.
-     *
-     * @param p node index of first vertex
-     * @param q node index of second vertex
-     * @param value Value to associate with the edge
-     * @param directed true, if the edge is directed, false otherwise
-     */
-    void setEdge(int p, int q, E value, boolean directed);
+        public Edge(V first, V second) {
+            this.first = first;
+            this.second = second;
+        }
 
-    Pair<Integer,E>[] getNeighbors(int p);
+        public abstract E reverse();
+    }
 }

@@ -1,4 +1,4 @@
-package code.algorithms;
+package algorithms;
 
 import java.util.function.Function;
 
@@ -57,6 +57,62 @@ public class BinarySearch {
             return low;
         } else {
             return start-1;
+        }
+    }
+
+    /**
+     * Binary search implementation which searches for rightmost 0 in a [0,0,...,1,1,..1] kind of sequence.
+     * The implementation does not cache the function calls and may call it multiple times.
+     *
+     * @param start Beginning of sequence, inclusive
+     * @param end End of sequence, exclusive
+     * @param valueFunc Function which returns boolean value for each index of sequence
+     * @return index of rightmost 0, if found. Returns start-1, otherwise.
+     */
+    public static long searchLastZero(long start, long end, Function<Long, Boolean> valueFunc) {
+        long low = start;
+        long high = end-1L;
+        while (low < high) {
+            long mid = low + (high - low) / 2L;
+            if (valueFunc.apply(mid+1L)) {
+                high = mid;
+            } else {
+                low = mid+1L;
+            }
+        }
+
+        if (!valueFunc.apply(low)) {
+            return low;
+        } else {
+            return start-1L;
+        }
+    }
+
+    /**
+     * Binary search implementation which searches for leftmost 1 in a [0,0,...,1,1,..1] kind of sequence.
+     * The implementation does not cache the function calls and may call it multiple times.
+     *
+     * @param start Beginning of sequence, inclusive
+     * @param end End of sequence, exclusive
+     * @param valueFunc Function which returns boolean value for each index of sequence
+     * @return index of leftmost 1, if found. Returns end, otherwise.
+     */
+    public static long searchFirstOne(long start, long end, Function<Long, Boolean> valueFunc) {
+        long low = start;
+        long high = end-1L;
+        while (low < high) {
+            long mid = low + (high - low) / 2L;
+            if (valueFunc.apply(mid)) {
+                high = mid;
+            } else {
+                low = mid+1L;
+            }
+        }
+
+        if (valueFunc.apply(low)) {
+            return low;
+        } else {
+            return end;
         }
     }
 }

@@ -1,0 +1,44 @@
+{
+  "name" : "Pattern Matching",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n5\n*CONUTS\n*COCONUTS\n*OCONUTS\n*CONUTS\n*S\n2\n*XZ\n*XYZ\n",
+    "output" : "Case #1: COCONUTS\nCase #2: *\n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "1\n2\nHELLO*\nSOME*",
+    "output" : "Case #1: *",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n2\nSOME*\n*THING",
+    "output" : "Case #1: SOMETHINGTHING",
+    "index" : 2,
+    "active" : false
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Solution",
+  "taskClass" : "code.PatternMatching",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.04.10",
+  "contestName" : "Round 1A 2020 - Code Jam 2020",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

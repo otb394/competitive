@@ -2,7 +2,7 @@ package code;
 
 import FastIO.InputReader;
 import FastIO.OutputWriter;
-import code.datastructure.Pair;
+import datastructure.Pair;
 
 public class HighwayCrossing {
     private static final double MIN_DIS = 1E-6;

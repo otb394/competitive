@@ -1,4 +1,4 @@
-package code.datastructure;
+package datastructure;
 
 public class Prefix {
     private int level;
@@ -9,7 +9,14 @@ public class Prefix {
 
     @Override
     public String toString() {
-        return "|  ".repeat(level);
+//        return "|  ".repeat(level);
+        String str = "|  ";
+        int n = str.length();
+        StringBuilder builder = new StringBuilder(n * level);
+        for (int i = 0; i < level; i++) {
+            builder.append(str);
+        }
+        return builder.toString();
     }
 
     public Prefix next() {

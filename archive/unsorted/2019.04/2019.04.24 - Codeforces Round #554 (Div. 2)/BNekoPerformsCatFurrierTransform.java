@@ -2,7 +2,7 @@ package code;
 
 import FastIO.InputReader;
 import FastIO.OutputWriter;
-import code.datastructure.Pair;
+import datastructure.Pair;
 
 import java.util.ArrayList;
 import java.util.List;

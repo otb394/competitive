@@ -1,0 +1,38 @@
+{
+  "name" : "Robot Path Decoding",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\nSSSEEE\nN\nN3(S)N2(E)N\n2(3(NW)2(W2(EE)W))\n",
+    "output" : "Case #1: 4 4\nCase #2: 1 1000000000\nCase #3: 3 1\nCase #4: 3 999999995\n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "1\n9(9(9(9(9(9(9(9(9(9(9(9(9(N)))))))))))))",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Solution",
+  "taskClass" : "code.RobotPathDecoding",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.04.18",
+  "contestName" : "Google Coding Competitions - Round B 2020 - Kick Start 2020",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

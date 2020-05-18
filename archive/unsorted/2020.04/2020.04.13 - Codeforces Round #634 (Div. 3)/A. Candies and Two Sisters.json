@@ -1,0 +1,34 @@
+{
+  "name" : "A. Candies and Two Sisters",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6\n7\n1\n2\n3\n2000000000\n763243547\n",
+    "output" : "3\n0\n0\n1\n999999999\n381621773\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "code.ACandiesAndTwoSisters",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.04.13",
+  "contestName" : "Codeforces Round #634 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

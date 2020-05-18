@@ -1,4 +1,4 @@
-package code.datastructure;
+package datastructure;
 
 public class UnionFind {
     private int noOfSets;

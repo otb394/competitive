@@ -1,0 +1,42 @@
+{
+  "name" : "Pascal Walk",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n1\n4\n19\n",
+    "output" : "Case #1:\n1 1\nCase #2:\n1 1\n2 1\n2 2\n3 3\nCase #3:\n1 1\n2 2\n3 2\n4 3\n5 3\n5 2\n4 1\n3 1\n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "1\n31",
+    "index" : 1,
+    "active" : false
+  }, {
+    "input" : "1\n91",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Solution",
+  "taskClass" : "code.PascalWalk",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.04.10",
+  "contestName" : "Round 1A 2020 - Code Jam 2020",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
