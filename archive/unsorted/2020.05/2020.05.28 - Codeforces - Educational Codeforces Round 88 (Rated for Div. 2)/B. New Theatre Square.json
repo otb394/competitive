@@ -1,0 +1,34 @@
+{
+  "name" : "B. New Theatre Square",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n1 1 10 1\n.\n1 2 10 1\n..\n2 1 10 1\n.\n.\n3 3 3 7\n..*\n*..\n.*.\n",
+    "output" : "10\n1\n20\n18\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "code.BNewTheatreSquare",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.28",
+  "contestName" : "Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

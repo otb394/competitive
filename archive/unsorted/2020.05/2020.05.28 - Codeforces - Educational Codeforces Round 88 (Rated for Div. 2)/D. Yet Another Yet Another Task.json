@@ -1,0 +1,59 @@
+{
+  "name" : "D. Yet Another Yet Another Task",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n5 -2 10 -1 4\n",
+    "output" : "6\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "8\n5 2 5 3 -30 -30 6 9\n",
+    "output" : "10\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3\n-10 6 -15\n",
+    "output" : "0\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "5\n0 5 -4 3 -1",
+    "output" : "0",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "10\n4 -2 -2 -2 2 0 1 0 -4 -1",
+    "output" : "1",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "10\n0 -1 4 -2 3 -2 -1 -5 -5 2",
+    "output" : "1",
+    "index" : 5,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "code.DYetAnotherYetAnotherTask",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.28",
+  "contestName" : "Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

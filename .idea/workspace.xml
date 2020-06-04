@@ -2,172 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1da6c69-ecc1-4a2f-9c37-46a4a21a84ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.04 - Qualification Round 2020 - Code Jam 2020/NestingDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.04 - Qualification Round 2020 - Code Jam 2020/Parenting Partnering Returns.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.04 - Qualification Round 2020 - Code Jam 2020/ParentingPartneringReturns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.04 - Qualification Round 2020 - Code Jam 2020/Vestigium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.04 - Qualification Round 2020 - Code Jam 2020/Vestigium.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.10 - Round 1A 2020 - Code Jam 2020/PascalWalk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.10 - Round 1A 2020 - Code Jam 2020/Pattern Matching.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.10 - Round 1A 2020 - Code Jam 2020/PatternMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.13 - Codeforces Round #634 (Div. 3)/A. Candies and Two Sisters.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.13 - Codeforces Round #634 (Div. 3)/ACandiesAndTwoSisters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.13 - Codeforces Round #634 (Div. 3)/B. Construct the String.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.13 - Codeforces Round #634 (Div. 3)/BConstructTheString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.13 - Codeforces Round #634 (Div. 3)/C. Two Teams Composing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.13 - Codeforces Round #634 (Div. 3)/CTwoTeamsComposing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.13 - Codeforces Round #634 (Div. 3)/D. Anti-Sudoku.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.13 - Codeforces Round #634 (Div. 3)/DAntiSudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.14 - Codeforces Round #634 (Div. 3)/E2. Three Blocks Palindrome (hard version).json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.14 - Codeforces Round #634 (Div. 3)/E2ThreeBlocksPalindromeHardVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.15 - Codeforces - Codeforces Round #635 (Div. 2)/A. Ichihime and Triangle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.15 - Codeforces - Codeforces Round #635 (Div. 2)/AIchihimeAndTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.15 - Codeforces - Codeforces Round #635 (Div. 2)/B. Kana and Dragon Quest game.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.15 - Codeforces - Codeforces Round #635 (Div. 2)/BKanaAndDragonQuestGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.15 - Codeforces - Codeforces Round #635 (Div. 2)/C. Linova and Kingdom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.15 - Codeforces - Codeforces Round #635 (Div. 2)/CLinovaAndKingdom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.18 - Google Coding Competitions - Round B 2020 - Kick Start 2020/Bike Tour.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.18 - Google Coding Competitions - Round B 2020 - Kick Start 2020/BikeTour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.18 - Google Coding Competitions - Round B 2020 - Kick Start 2020/Bus Routes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.18 - Google Coding Competitions - Round B 2020 - Kick Start 2020/BusRoutes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.18 - Google Coding Competitions - Round B 2020 - Kick Start 2020/Robot Path Decoding.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.18 - Google Coding Competitions - Round B 2020 - Kick Start 2020/RobotPathDecoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.02 - Google Coding Competitions - Round 1C 2020 - Code Jam 2020/Overexcited Fan.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.02 - Google Coding Competitions - Round 1C 2020 - Code Jam 2020/OverexcitedFan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.02 - Google Coding Competitions - Round 1C 2020 - Code Jam 2020/Overrandomized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.02 - Google Coding Competitions - Round 1C 2020 - Code Jam 2020/Overrandomized.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.16 - Google Coding Competitions - Round 2 2020 - Code Jam 2020/Incremental House of Pancakes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.16 - Google Coding Competitions - Round 2 2020 - Code Jam 2020/IncrementalHouseOfPancakes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.16 - Google Coding Competitions - Round 2 2020 - Code Jam 2020/Security Update.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.16 - Google Coding Competitions - Round 2 2020 - Code Jam 2020/SecurityUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.17 - Google Coding Competitions - Round C 2020 - Kick Start 2020/Candies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.17 - Google Coding Competitions - Round C 2020 - Kick Start 2020/Candies.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.17 - Google Coding Competitions - Round C 2020 - Kick Start 2020/Countdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.17 - Google Coding Competitions - Round C 2020 - Kick Start 2020/Countdown.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.17 - Google Coding Competitions - Round C 2020 - Kick Start 2020/Perfect Subarray.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.17 - Google Coding Competitions - Round C 2020 - Kick Start 2020/PerfectSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.17 - Google Coding Competitions - Round C 2020 - Kick Start 2020/Stable Wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.17 - Google Coding Competitions - Round C 2020 - Kick Start 2020/StableWall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/algorithms/BinarySearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/BOAChallenge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/ESAb ATAd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/ESAbATAd$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/ESAbATAd$Action.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/ESAbATAd$IndPair.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/ESAbATAd$PairType$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/ESAbATAd$PairType$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/ESAbATAd$PairType$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/ESAbATAd$PairType$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/ESAbATAd$PairType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/ESAbATAd$ReturnNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/ESAbATAd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/Oversized Pancake Choppers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/OversizedPancakeChoppers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/Square Dance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/SquareDance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/Wandering Robot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/code/WanderingRobot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/AdjacencyList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/AdjacencyList0$EdgeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/AdjacencyList0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Graph$Edge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Graph.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Graph0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/NaryTree0$NaryTreeNode0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/NaryTree0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/NaryTree1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Pair.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Prefix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Tree$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Tree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Tree0$TreeNode0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Tree0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Tree1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Trie$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Trie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/UnionFind.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Competitive/input.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/input.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code/ESAb ATAd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code/ESAbATAd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code/Oversized Pancake Choppers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code/OversizedPancakeChoppers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code/Square Dance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code/SquareDance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code/Wandering Robot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code/WanderingRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/AdjacencyList0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/Graph0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/NaryTree0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/NaryTree1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/Tree0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/Tree1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Beta Round #4 (Div. 2 Only)/A. Watermelon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Beta Round #4 (Div. 2 Only)/AWatermelon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Beta Round #65 (Div. 2)/A. Way Too Long Words.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Beta Round #65 (Div. 2)/AWayTooLongWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Beta Round #84 (Div. 2 Only)/A. Nearly Lucky Number.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Beta Round #84 (Div. 2 Only)/ANearlyLuckyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Round #101 (Div. 2)/A. Amusing Joke.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Round #101 (Div. 2)/AAmusingJoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Round #126 (Div. 2)/B. Drinks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Round #126 (Div. 2)/BDrinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Round #143 (Div. 2)/A. Team.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Round #143 (Div. 2)/ATeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Round #181 (Div. 2)/A. Array.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Round #181 (Div. 2)/AArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Round #246 (Div. 2)/A. Choosing Teams.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Codeforces Round #246 (Div. 2)/AChoosingTeams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Lyft Level 5 Challenge 2018 - Final Round (Open Div. 2)/A. The King's Race.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - Lyft Level 5 Challenge 2018 - Final Round (Open Div. 2)/ATheKingsRace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - VK Cup 2012 Qualification Round 1/A. Next Round.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - Codeforces - VK Cup 2012 Qualification Round 1/ANextRound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - SPOJ - Classical/Aggressive cows.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - SPOJ - Classical/AggressiveCows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - SPOJ - Classical/Hacking the random number generator.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.23 - SPOJ - Classical/HackingTheRandomNumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/A. Minimal Square.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/AMinimalSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/B. Honest Coach.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/BHonestCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/C. Similar Pairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/CSimilarPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/D. Buying Shovels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/DBuyingShovels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/E. Polygon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/EPolygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/F. Spy-string.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/FSpyString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/G. A-B Matrix.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.25 - Codeforces - Codeforces Round #644 (Div. 3)/GABMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Codeforces Round #644 (Div. 3)/H. Binary Median.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Codeforces Round #644 (Div. 3)/HBinaryMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Codeforces Round #645 (Div. 2)/A. Park Lighting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Codeforces Round #645 (Div. 2)/AParkLighting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Codeforces Round #645 (Div. 2)/B. Maria Breaks the Self-isolation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Codeforces Round #645 (Div. 2)/BMariaBreaksTheSelfIsolation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Codeforces Round #645 (Div. 2)/C. Celex Update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Codeforces Round #645 (Div. 2)/CCelexUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/A. Alarm Clock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/AAlarmClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/B. Ternary String.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/BTernaryString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/C1. Simple Polygon Embedding.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/C1SimplePolygonEmbedding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/C2. Not So Simple Polygon Embedding.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.26 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/C2NotSoSimplePolygonEmbedding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.27 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/D. Multiset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.27 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/DMultiset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.27 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/E. Graph Coloring.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.27 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/EGraphColoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.27 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/F. Summoning Minions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.27 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/FSummoningMinions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.28 - Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)/A. Berland Poker.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.28 - Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)/ABerlandPoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.28 - Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)/B. New Theatre Square.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.28 - Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)/BNewTheatreSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.28 - Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)/C. Mixing Water.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.28 - Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)/CMixingWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.28 - Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)/D. Yet Another Yet Another Task.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.28 - Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)/DYetAnotherYetAnotherTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.29 - Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)/E. Modular Stability.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.29 - Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)/EModularStability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.30 - Codeforces - Codeforces Round #634 (Div. 3)/F. Robots on a Grid.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.30 - Codeforces - Codeforces Round #634 (Div. 3)/FRobotsOnAGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.30 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/G. Find a Gift.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.30 - Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)/GFindAGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.31 - Codeforces - Codeforces Round #646 (Div. 2)/A. Odd Selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.31 - Codeforces - Codeforces Round #646 (Div. 2)/AOddSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.31 - Codeforces - Codeforces Round #646 (Div. 2)/B. Subsequence Hate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.31 - Codeforces - Codeforces Round #646 (Div. 2)/BSubsequenceHate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.31 - Codeforces - Codeforces Round #646 (Div. 2)/C. Game On Leaves.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.31 - Codeforces - Codeforces Round #646 (Div. 2)/CGameOnLeaves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.31 - Codeforces - Codeforces Round #646 (Div. 2)/E. Tree Shuffling.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.05/2020.05.31 - Codeforces - Codeforces Round #646 (Div. 2)/ETreeShuffling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.06/2020.06.03 - Codeforces - Codeforces Round #635 (Div. 2)/D. Xenia and Colorful Gems.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.06/2020.06.03 - Codeforces - Codeforces Round #635 (Div. 2)/DXeniaAndColorfulGems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.06/2020.06.04 - Codeforces - Codeforces Round #646 (Div. 2)/D. Guess The Maximums.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/unsorted/2020.06/2020.06.04 - Codeforces - Codeforces Round #646 (Div. 2)/DGuessTheMaximums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyScratch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/Fraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/MiscUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHelperReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHelperReport.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/unsorted/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/TaskC.java" beforeDir="false" afterPath="$PROJECT_DIR$/archive/unsorted/2019.04/2019.04.22 - Educational Codeforces Round 63 (Rated for Div. 2)/TaskC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/unsorted/2019.04/2019.04.24 - Codeforces Round #554 (Div. 2)/BNekoPerformsCatFurrierTransform.java" beforeDir="false" afterPath="$PROJECT_DIR$/archive/unsorted/2019.04/2019.04.24 - Codeforces Round #554 (Div. 2)/BNekoPerformsCatFurrierTransform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/unsorted/2020.03/2020.03.22 - Round A 2020 - Kick Start 2020/Bundling.java" beforeDir="false" afterPath="$PROJECT_DIR$/archive/unsorted/2020.03/2020.03.22 - Round A 2020 - Kick Start 2020/Bundling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/FastIO/InputReader$SpaceCharFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/FastIO/InputReader$SpaceCharFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/FastIO/InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/FastIO/InputReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/FastIO/OutputWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/FastIO/OutputWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$InputReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$TaskA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$TaskA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$InputReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$TaskC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$TaskC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution$Bundling$Vertex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution$Bundling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution$InputReader$SpaceCharFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/Solution$InputReader$SpaceCharFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/Solution$InputReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution$OutputWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/Solution$OutputWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution$Trie$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution$Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/AverageOfPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/AverageOfPairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/Bundling$Vertex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/Bundling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/Bundling.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.04 - Qualification Round 2020 - Code Jam 2020/Nesting Depth.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndArrayChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndArrayChallenge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndSameOldRecurrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndSameOldRecurrence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndSameOldRecurrence2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/ChefAndSameOldRecurrence2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/ChefAtTheFoodFair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/ChefAtTheFoodFair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/CountGoodPrefixes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/CountGoodPrefixes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/CuttingPlants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/CuttingPlants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/EnormousInputTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/EnormousInputTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/HighwayCrossing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/HighwayCrossing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/SSemipalindromic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/SSemipalindromic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/SavingTheUniverseAgain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/SavingTheUniverseAgain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/TaskA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/TaskA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/TaskB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/TaskB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/TaskC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/TaskC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/TaskD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/TaskD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/VaibhavAndMinisters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/VaibhavAndMinisters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/WeightOfNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/WeightOfNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/Workers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/code/Workers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/Workout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/Workout.json" beforeDir="false" afterPath="$PROJECT_DIR$/archive/unsorted/2020.04/2020.04.10 - Round 1A 2020 - Code Jam 2020/Pascal Walk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/algorithms/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/datastructure/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/datastructure/Trie$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/datastructure/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/datastructure/UnionFind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.in" beforeDir="false" afterPath="$PROJECT_DIR$/input.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$InputReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A$TaskA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$InputReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C$TaskC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/GCJ2018C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution$Candies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution$InputReader$SpaceCharFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution$InputReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution$OutputWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/algorithms/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/algorithms/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/Candies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/code/Candies.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/datastructure/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/datastructure/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Competitive/input.in" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Competitive/util/MathUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Competitive/util/MathUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/output/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/input.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GCJ2018A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GCJ2018C.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/HighwayCrossing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/HighwayCrossing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/TaskD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/TaskD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/AdjacencyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/AdjacencyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructure/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/Prefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Prefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UnionFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/MathUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MathUtility.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -195,11 +146,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/archive/unsorted/2020.06/2020.06.04 - Codeforces - Codeforces Round #646 (Div. 2)/D. Guess The Maximums.json" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -221,29 +173,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.Result" />
-      <module name="Competitive" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="MyScratch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyScratch" />
       <module name="Competitive" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+    <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch (2)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch (3)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -251,6 +204,12 @@
     <configuration name="ESAb ATAd" type="Task" factoryName="Task">
       <taskConf>src/code/ESAb ATAd.json</taskConf>
       <method v="2">
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -274,11 +233,23 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <configuration name="Square Dance" type="Task" factoryName="Task">
       <taskConf>src/code/Square Dance.json</taskConf>
       <method v="2">
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
@@ -303,14 +274,21 @@
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
         <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
+        <option name="MakeProject" enabled="false" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Result" />
+        <item itemvalue="Application.MyScratch" />
+        <item itemvalue="Java Scratch.Scratch (3)" />
+        <item itemvalue="Java Scratch.Scratch (2)" />
+        <item itemvalue="Java Scratch.Scratch (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -383,6 +361,12 @@
       <workItem from="1588708957136" duration="470000" />
       <workItem from="1589395756131" duration="921000" />
       <workItem from="1589637767594" duration="28759000" />
+      <workItem from="1590231757381" duration="4963000" />
+      <workItem from="1590239379528" duration="3295000" />
+      <workItem from="1590356944058" duration="1488000" />
+      <workItem from="1590384864684" duration="106891000" />
+      <workItem from="1591188010269" duration="11830000" />
+      <workItem from="1591266286178" duration="4088000" />
     </task>
     <servers />
   </component>

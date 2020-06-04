@@ -1,0 +1,44 @@
+{
+  "name" : "Aggressive cows",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n5 3\n1\n2\n8\n4\n9\n",
+    "output" : "3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n10 4\n1 2 3 4 5 6 7 8 9 10",
+    "output" : "3",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n2 2\n0 1000000000\n10 4\n1 2 3 4 5 6 7 8 9 10\n",
+    "output" : "1000000000\n3",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx1536M",
+  "mainClass" : "Main",
+  "taskClass" : "code.AggressiveCows",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.23",
+  "contestName" : "SPOJ - Classical",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "B. Ternary String",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7\n123\n12222133333332\n112233\n332211\n12121212\n333333\n31121\n",
+    "output" : "3\n3\n4\n4\n0\n0\n4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n12121212\n333333",
+    "output" : "0\n0",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "code.BTernaryString",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.26",
+  "contestName" : "Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

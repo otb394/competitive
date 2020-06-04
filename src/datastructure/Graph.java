@@ -26,4 +26,19 @@ public interface Graph<V, E extends Graph.Edge<V,E>> {
 
         public abstract E reverse();
     }
+
+    class BaseEdge<V> extends Edge<V, BaseEdge<V>> {
+        private BaseEdge(V first, V second) {
+            super(first, second);
+        }
+
+        public static <A> BaseEdge<A> of(A fir, A sec) {
+            return new BaseEdge<>(fir, sec);
+        }
+
+        @Override
+        public BaseEdge<V> reverse() {
+            return BaseEdge.of(second, first);
+        }
+    }
 }

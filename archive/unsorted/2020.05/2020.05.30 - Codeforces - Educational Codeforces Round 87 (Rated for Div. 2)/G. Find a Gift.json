@@ -1,0 +1,34 @@
+{
+  "name" : "G. Find a Gift",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n2 1\n5 2\n",
+    "output" : "? 1 1\n1\n2\n! 2\n? 1 1\n1\n2\n? 2 3\n4 2\n1 3 5\n? 1 1\n4\n5\n! 1\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "code.GFindAGift",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.30",
+  "contestName" : "Codeforces - Educational Codeforces Round 87 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : true,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "A. Odd Selection",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "9\n1 1\n999\n1 1\n1000\n2 1\n51 50\n2 2\n51 50\n3 3\n101 102 103\n5 5\n2 2 2 2 2\n5 5\n2 2 2 2 1\n5 5\n1 1 1 1 1\n4 4\n1 1 1 1",
+    "output" : "Yes\nNo\nYes\nYes\nNo\nNo\nYes\nYes\nNo\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n3 3\n101 102 103",
+    "output" : "No",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "code.AOddSelection",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.31",
+  "contestName" : "Codeforces - Codeforces Round #646 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

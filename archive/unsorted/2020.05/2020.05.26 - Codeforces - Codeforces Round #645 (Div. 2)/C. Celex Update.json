@@ -1,0 +1,37 @@
+{
+  "name" : "C. Celex Update",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n1 1 2 2\n1 2 2 4\n179 1 179 100000\n5 7 5 7\n1 1 1000000000 1000000000\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n999999985 999999985 999999985 999999988",
+    "index" : 1,
+    "active" : false
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "code.CCelexUpdate",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.26",
+  "contestName" : "Codeforces - Codeforces Round #645 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

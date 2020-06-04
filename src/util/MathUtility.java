@@ -120,4 +120,135 @@ public class MathUtility {
     public static boolean isPowerOfTwo(long n) {
         return n == (Long.highestOneBit(n));
     }
+
+    /**
+     * Calculates the ceiling function when dividing num with denom
+     *
+     * @param num Numerator
+     * @param denom Denominator
+     * @return ceiling of num/denom
+     */
+    public static int ceil(int num, int denom) {
+        return (int) Math.ceil(((double)num) / ((double)denom));
+    }
+
+    /**
+     * Calculates the ceiling function when dividing num with denom
+     *
+     * @param num Numerator
+     * @param denom Denominator
+     * @return ceiling of num/denom
+     */
+    public static long ceil(long num, long denom) {
+        return (long) Math.ceil(((double)num) / ((double)denom));
+    }
+
+    /**
+     * Calculates the mod inverse of a (mod MOD), i.e. x such that (ax)%MOD = 1.
+     *
+     * @param a Number in [0,MOD-1], we want to take inverse of
+     * @param MOD Number to take mod with. Should be a prime number.
+     * @return x such that (a*x)%MOD = 1. x will be in [0, MOD-1]
+     */
+    public static int modInversePrime(int a, int MOD) {
+        return pow(a, MOD-2, MOD);
+    }
+
+    /**
+     * Calculates the mod inverse of a (mod MOD), i.e. x such that (ax)%MOD = 1.
+     *
+     * @param a Number we want to take inverse of
+     * @param MOD Number to take mod with. a and MOD should be co primes.
+     * @return x such that (a*x)%MOD = 1. x will be in [0, MOD-1]
+     */
+    public static int modInverseNonPrime(int a, int MOD) {
+        ExtendedEuclideanAlgorithm.Output output = ExtendedEuclideanAlgorithm.execute(a, MOD);
+        if (output.gcd != 1) {
+            throw new RuntimeException(String.format("Illegal arguments passed to " +
+                    "modInverseNonPrime. a[%d] and MOD[%d] should be co primes", a, MOD));
+        }
+        return ExtendedEuclideanAlgorithm.execute(a, MOD).x;
+    }
+
+    /**
+     * Calculates (num/denom) % MOD
+     *
+     * @param num Should be in [0, MOD-1]
+     * @param denom Should be in [0, MOD-1]
+     * @param MOD Should be a prime number
+     * @return returns the quotient mod value
+     */
+    public static int dividePrime(int num, int denom, int MOD) {
+        int mul = modInversePrime(denom, MOD);
+        return mult(num, mul, MOD);
+    }
+
+    /**
+     * Calculates (num/denom) % MOD
+     *
+     * @param num Should be in [0, MOD-1]
+     * @param denom Should be in [0, MOD-1]
+     * @param MOD denom and MOD should be coprime
+     * @return returns the quotient mod value
+     */
+    public static int divideNonPrime(int num, int denom, int MOD) {
+        int mul = modInverseNonPrime(denom, MOD);
+        return mult(num, mul, MOD);
+    }
+
+    /**
+     * Executes the extended euclidean algorithm on a and b input to generate Bezout coefficients and gcd
+     */
+    public static class ExtendedEuclideanAlgorithm {
+        public static Output execute(int a, int b) {
+            //rz stands for r0 and ro stands for r1. Same for s and t series.
+            int sz = 1;
+            int so = 0;
+            int tz = 0;
+            int to = 1;
+            int rz = a;
+            int ro = b;
+            while (ro > 0) {
+                int q = rz/ro;
+                int r = rz - q*ro;
+                int s = sz - q*so;
+                int t = tz - q*to;
+                rz = ro;tz = to;sz = so;
+                ro = r;to = t;so = s;
+            }
+            return new Output(sz, tz, rz);
+        }
+
+        public static class Output {
+            /**
+             * x is coefficient of a
+             * ax + by = gcd
+             */
+            public int x;
+            /**
+             * y is coefficient of b
+             * ax + by = gcd
+             */
+            public int y;
+            /**
+             * gcd of a and b
+             */
+            public int gcd;
+
+            public Output(int x, int y, int gcd) {
+                this.x = x;
+                this.y = y;
+                this.gcd = gcd;
+            }
+
+            @Override
+            public String toString() {
+                return "Output{" +
+                        "x=" + x +
+                        ", y=" + y +
+                        ", gcd=" + gcd +
+                        '}';
+            }
+        }
+    }
 }
