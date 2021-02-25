@@ -1,0 +1,34 @@
+{
+  "name" : "A. Common Prefixes",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n4\n1 2 4 2\n2\n5 3\n3\n1 3 1\n3\n0 0 0\n",
+    "output" : "aeren\nari\narousal\naround\nari\nmonogon\nmonogamy\nmonthly\nkevinvu\nkuroni\nkurioni\nkorone\nanton\nloves\nadhoc\nproblems\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "code.ACommonPrefixes",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.24",
+  "contestName" : "Codeforces - Codeforces Round #659 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

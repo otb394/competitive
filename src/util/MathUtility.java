@@ -1,7 +1,11 @@
 package util;
 
+import algorithms.BinarySearch;
+
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.function.Function;
 
 public class MathUtility {
     public static int pow(int b, long p, int MOD) {
@@ -42,10 +46,12 @@ public class MathUtility {
     }
 
     public static int hcf(int a, int b) {
-        if (a==0) {
-            return b;
+        while (b > 0) {
+            int temp = a;
+            a = b;
+            b = temp % b;
         }
-        return hcf(b%a, a);
+        return a;
     }
 
     /**
@@ -63,11 +69,29 @@ public class MathUtility {
         return result;
     }
 
-    public static long hcf(long a, long b) {
-        if (a==0L) {
-            return b;
+    /**
+     * Finds highest common factor of the array of numbers
+     *
+     * @param arr Array of numbers
+     * @param start Starting index, inclusive
+     * @param end Ending index, exclusive
+     * @return Highest common factor
+     */
+    public static int hcf(int[] arr, int start, int end) {
+        int result = arr[start];
+        for(int i=start+1;i<end;i++) {
+            result=hcf(arr[i],result);
         }
-        return hcf(b%a, a);
+        return result;
+    }
+
+    public static long hcf(long a, long b) {
+        while (b > 0L) {
+            long temp = a;
+            a = b;
+            b = temp%b;
+        }
+        return a;
     }
 
     /**
@@ -129,7 +153,8 @@ public class MathUtility {
      * @return ceiling of num/denom
      */
     public static int ceil(int num, int denom) {
-        return (int) Math.ceil(((double)num) / ((double)denom));
+        if (num % denom == 0) return num/denom;
+        return num/denom + 1;
     }
 
     /**
@@ -140,7 +165,8 @@ public class MathUtility {
      * @return ceiling of num/denom
      */
     public static long ceil(long num, long denom) {
-        return (long) Math.ceil(((double)num) / ((double)denom));
+        if (num % denom == 0L) return num/denom;
+        return num/denom + 1L;
     }
 
     /**
@@ -250,5 +276,71 @@ public class MathUtility {
                         '}';
             }
         }
+    }
+
+    /**
+     * Modifies the input array p into the next lexicographically greater permutation, if possible.
+     *
+     * @param p Input permutation
+     * @param start starting index in the array, inclusive
+     * @param end ending index in the array, exclusive
+     * @return If next permutation exists, returns true, else returns false
+     */
+    public static boolean next_permutation(int[] p, int start, int end) {
+        for (int i = end-2; i >= start; i--) {
+            if (p[i] < p[i+1]) {
+                int finalI = i;
+                Function<Integer, Boolean> func = ind -> p[ind] <= p[finalI];
+                int next = BinarySearch.searchLastZero(i+1, end, func);
+                int temp = p[i];
+                p[i] = p[next];
+                p[next] = temp;
+                int count = end-1-i;
+                int mx = i + count/2;
+                for (int j = i+1; j <= mx; j++) {
+                    int tt = p[j];
+                    p[j] = p[end-j+i];
+                    p[end-j+i] = tt;
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Modifies the input array p into the next lexicographically greater permutation, if possible.
+     *
+     * @param p Input permutation
+     * @param start starting index in the array, inclusive
+     * @param end ending index in the array, exclusive
+     * @param comparator Comparator to compare elements of the array
+     * @param <T> Type of the array elements
+     * @return If next permutation exists, returns true, else returns false
+     */
+    public static <T> boolean next_permutation(T[] p, int start, int end, Comparator<T> comparator) {
+        for (int i = end-2; i >= start; i--) {
+            if (comparator.compare(p[i], p[i+1]) < 0) {
+                int finalI = i;
+                Function<Integer, Boolean> func = ind -> comparator.compare(p[ind], p[finalI]) <= 0;
+                int next = BinarySearch.searchLastZero(i+1, end, func);
+                swap(p, i, next);
+                int l = i + 1;
+                int r = end - 1;
+                while (l < r) {
+                    swap(p, l, r);
+                    l++;
+                    r--;
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private static <T> void swap(T[] p, int i, int j) {
+        T temp = p[i];
+        p[i] = p[j];
+        p[j] = temp;
     }
 }

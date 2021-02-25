@@ -1,0 +1,34 @@
+{
+  "name" : "10911 - Forming Quiz Teams",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\nsohel 10 10\nmahmud 20 10\nsanny 5 5\nprince 1 1\nper 120 3\nmf 6 6\nkugel 50 60\njoey 3 24\nlimon 6 9\nmanzoor 0 0\n1\nderek 9 9\njimmy 10 10\n0",
+    "output" : "Case 1: 118.40\nCase 2: 1.41",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "code.FormingQuizTeams",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.27",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

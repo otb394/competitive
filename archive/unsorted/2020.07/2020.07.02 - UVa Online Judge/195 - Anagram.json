@@ -1,0 +1,44 @@
+{
+  "name" : "195 - Anagram",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\naAb\nabc\nacba",
+    "output" : "Aab\nAba\naAb\nabA\nbAa\nbaA\nabc\nacb\nbac\nbca\ncab\ncba\naabc\naacb\nabac\nabca\nacab\nacba\nbaac\nbaca\nbcaa\ncaab\ncaba\ncbaa",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\nAaBb",
+    "output" : "AaBb\nAabB\nABab\nABba\nAbaB\nAbBa\naABb\naAbB\naBAb\naBbA\nabAB\nabBA\nBAab\nBAba\nBaAb\nBabA\nBbAa\nBbaA\nbAaB\nbABa\nbaAB\nbaBA\nbBAa\nbBaA\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5\naz\nZa\naAaA\na\naaaaaaaaaaaaaaaaaaa",
+    "output" : "az\nza\naZ\nZa\nAAaa\nAaAa\nAaaA\naAAa\naAaA\naaAA\na\naaaaaaaaaaaaaaaaaaa\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "code.Anagram",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.02",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

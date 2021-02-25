@@ -35,6 +35,11 @@ public class Fraction implements Comparable<Fraction> {
         return new Fraction(Math.abs(num), Math.abs(denom));
     }
 
+    public double doubleValue() {
+        Fraction reduced = reduce();
+        return ((double) reduced.num) / ((double) reduced.denom);
+    }
+
     @Override
     public int compareTo(Fraction o) {
         return Long.compare(this.num * o.denom, this.denom * o.num);

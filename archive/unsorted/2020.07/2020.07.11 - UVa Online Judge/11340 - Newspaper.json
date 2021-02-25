@@ -1,0 +1,34 @@
+{
+  "name" : "11340 - Newspaper",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n7\na 3\nW 10\nA 100\n, 10\nk 7\n. 3\nI 13\n7\nACM International Collegiate Programming Contest (abbreviated\nas ACM-ICPC or just ICPC) is an annual multi-tiered competition\namong the universities of the world. The ICPC challenges students\nto set ever higher standards of excellence for themselves\nthrough competition that rewards team work, problem analysis,\nand rapid software development.\nFrom Wikipedia.\n",
+    "output" : "3.74$\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "code.Newspaper",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.11",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "io.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

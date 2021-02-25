@@ -1,0 +1,54 @@
+{
+  "name" : "E. Sum of Digits",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.in"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7\n1 0\n1 1\n42 7\n13 7\n99 1\n99 0\n99 2\n",
+    "output" : "1\n0\n4\n-1\n599998\n99999999999\n7997\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n42 7\n",
+    "output" : "4",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n28 1",
+    "output" : "189",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1\n30 1",
+    "output" : "289",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "1\n46 1",
+    "output" : "1989",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "code.ESumOfDigits",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.25",
+  "contestName" : "Codeforces - Educational Codeforces Round 90 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

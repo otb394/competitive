@@ -1,0 +1,36 @@
+{
+  "name" : "AqaAsadiPlays",
+  "signature" : {
+    "name" : "getMin",
+    "result" : "int",
+    "arguments" : [ "int[]" ],
+    "argumentNames" : [ "A" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "6 1 4" ],
+    "result" : "2",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "4 4 1 3 2" ],
+    "result" : "2",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "2 8 3 12 16" ],
+    "result" : "3",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "47 47" ],
+    "result" : "-1",
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2020.06.21",
+  "contestName" : "TopCoder SRM #787",
+  "testClasses" : [ ],
+  "fqn" : "code.AqaAsadiPlays",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

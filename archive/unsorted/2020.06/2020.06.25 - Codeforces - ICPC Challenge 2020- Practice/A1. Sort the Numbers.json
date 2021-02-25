@@ -1,0 +1,29 @@
+{
+  "name" : "A1. Sort the Numbers",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "sort.in"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "sort.out"
+  },
+  "tests" : [ ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "code.A1SortTheNumbers",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.25",
+  "contestName" : "Codeforces - ICPC Challenge 2020: Practice",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,69 @@
+{
+  "name" : "IshaanGS2",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n2\n3 5",
+    "output" : "1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n2\n3 5",
+    "output" : "2",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "11\n5\n10 10 10 9 3",
+    "output" : "-1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "45\n1\n1",
+    "output" : "45",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "45\n1\n13",
+    "output" : "-1",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "1\n1\n2",
+    "output" : "-1",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "4\n2\n2 4",
+    "output" : "1",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "1000\n7\n7 7 7 7 7 7 2",
+    "output" : "145",
+    "index" : 7,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "code.IshaanGS2",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.29",
+  "contestName" : "GoldmanSachsTest",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

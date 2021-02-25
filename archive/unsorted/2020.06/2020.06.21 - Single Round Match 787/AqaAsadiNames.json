@@ -1,0 +1,46 @@
+{
+  "name" : "AqaAsadiNames",
+  "signature" : {
+    "name" : "getName",
+    "result" : "String",
+    "arguments" : [ "String", "String", "String", "String" ],
+    "argumentNames" : [ "Dad", "Mom", "FirstChild", "Gender" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "Mohammad Reza", "Yasaman Sadat", "Baqer Ali", "Boy" ],
+    "result" : "Mohammad Ali",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "Mohammad Reza", "Yasaman Sadat", "Baqer Ali", "Girl" ],
+    "result" : "Sadat Yasaman",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "Mohammad Reza", "Yasaman Sadat", "Umi Kulsum", "Girl" ],
+    "result" : "Yasaman Kulsum",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "Mohammad Reza", "Yasaman Sadat", "Umi Kulsum", "Boy" ],
+    "result" : "Reza Mohammad",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "Mohammad Ali", "Yasaman Sadat", "Mohammad Reza", "Boy" ],
+    "result" : "Mohammad Reza",
+    "index" : 4,
+    "active" : true
+  }, {
+    "arguments" : [ "Dhikrullah Ali", "Umi Kulsum", "Reza Hosseinzadeh", "Boy" ],
+    "result" : "Dhikrullah Hosseinzadeh",
+    "index" : 5,
+    "active" : true
+  } ],
+  "date" : "2020.06.21",
+  "contestName" : "Single Round Match 787",
+  "testClasses" : [ ],
+  "fqn" : "code.AqaAsadiNames",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

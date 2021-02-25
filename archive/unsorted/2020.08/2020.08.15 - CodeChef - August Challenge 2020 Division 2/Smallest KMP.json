@@ -1,0 +1,39 @@
+{
+  "name" : "Smallest KMP",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "17\nakramkeeanany\naka\nsupahotboy\nbohoty\ndaehabshatorawy\nbadawy\naab\na\na\na\nba\nb\nabcde\ndeb\naaaabb\naab\nrishabhagrawal\nalga\nabcdzzz\nzzz\nzzzzz\nzz\nxyzwwidh\nzyx\naabbcc\nab\nabcd\nabcd\naaaa\naaaa\ndcab\ncdba\nabcde\nace",
+    "output" : "aaakaeekmnnry\nabohotypsu\naabadawyehhorst\naab\na\nab\nacdeb\naaaabb\naaalgabhhirrsw\nabcdzzz\nzzzzz\ndhiwwzyx\naabbcc\nabcd\naaaa\ncdba\nacebd",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "1\nvvvvccccbbbaaa\ncab",
+    "output" : "aabbcabcccvvvv",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "code.SmallestKMP",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.08.15",
+  "contestName" : "CodeChef - August Challenge 2020 Division 2",
+  "truncate" : true,
+  "inputClass" : "io.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

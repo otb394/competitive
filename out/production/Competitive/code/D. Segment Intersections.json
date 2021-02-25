@@ -1,0 +1,44 @@
+{
+  "name" : "D. Segment Intersections",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n3 5\n1 2\n3 4\n2 1000000000\n1 1\n999999999 999999999\n10 3\n5 10\n7 8\n",
+    "output" : "7\n2000000000\n0\n",
+    "index" : 0,
+    "active" : false
+  }, {
+    "input" : "13\n10 5647\n984 986\n427 782\n10 2372\n554 967\n254 878\n10 6386\n61 234\n362 624\n10 1696\n266 654\n34 347\n10 2930\n412 759\n21 227\n10 9118\n201 942\n504 776\n10 258\n399 474\n346 836\n10 8611\n15 788\n210 532\n10 8868\n84 162\n458 719\n10 3976\n36 403\n404 767\n10 37\n483 967\n726 852\n10 4482\n617 983\n318 386\n10 9520\n262 464\n404 719",
+    "output" : "7724\n0\n8422\n886\n3670\n8106\n0\n6272\n14346\n3982\n0\n6099\n13870",
+    "index" : 1,
+    "active" : false
+  }, {
+    "input" : "1\n10 9520\n262 464\n404 719",
+    "output" : "13870",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "code.DSegmentIntersections",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.29",
+  "contestName" : "Codeforces - Educational Codeforces Round 92 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

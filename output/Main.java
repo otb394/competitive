@@ -1,23 +1,18 @@
 import java.io.OutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.stream.IntStream;
-import java.util.Arrays;
-import java.util.InputMismatchException;
-import java.util.function.Function;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.io.OutputStreamWriter;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.io.BufferedWriter;
-import java.util.Collection;
 import java.util.Set;
+import java.util.InputMismatchException;
 import java.io.IOException;
-import java.util.stream.Collectors;
+import java.util.TreeSet;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
 import java.io.Writer;
+import java.io.OutputStreamWriter;
+import java.util.Comparator;
 import java.io.InputStream;
 
 /**
@@ -32,106 +27,120 @@ public class Main {
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         OutputWriter out = new OutputWriter(outputStream);
-        DGuessTheMaximums solver = new DGuessTheMaximums();
-        int testCount = Integer.parseInt(in.next());
-        for (int i = 1; i <= testCount; i++)
-            solver.solve(i, in, out);
+        GHC21PracticeProblem solver = new GHC21PracticeProblem();
+        solver.solve(1, in, out);
         out.close();
     }
 
-    static class DGuessTheMaximums {
+    static class GHC21PracticeProblem {
         public void solve(int testNumber, InputReader in, OutputWriter out) {
-            int n = in.nextInt();
-            int k = in.nextInt();
-            int maxNodVal;
-            List<List<Integer>> subs = new ArrayList<>();
-            List<Integer> otherList = new ArrayList<>();
-            boolean[] others = new boolean[n + 1];
-            for (int i = 0; i < k; i++) {
-                int c = in.nextInt();
-                int[] tArr = in.nextIntArray(c);
-                for (int val : tArr) {
-                    others[val] = true;
+            int m = in.nextInt();
+            int nt = in.nextInt();
+            int nh = in.nextInt();
+            int nf = in.nextInt();
+            List<GHC21PracticeProblem.Pizza> pizzas = new ArrayList<>();
+            for (int i = 0; i < m; i++) {
+                int ni = in.nextInt();
+                GHC21PracticeProblem.Pizza pizza = new GHC21PracticeProblem.Pizza();
+                pizza.id = i;
+                for (int j = 0; j < ni; j++) {
+                    String ing = in.nextString();
+                    pizza.ingredients.add(ing);
                 }
-                subs.add(Arrays.stream(tArr).boxed().collect(Collectors.toList()));
+                pizzas.add(pizza);
             }
-            for (int i = 1; i <= n; i++) {
-                if (!others[i]) {
-                    otherList.add(i);
+            pizzas.sort(Comparator.comparingInt((GHC21PracticeProblem.Pizza p) -> p.ingredients.size()).reversed());
+            List<GHC21PracticeProblem.Delivery> deliveries = new ArrayList<>();
+            int pi = 0;
+            for (int i = 0; i < nf && (pi <= (m - 4)); i++) {
+                GHC21PracticeProblem.Delivery delivery = new GHC21PracticeProblem.Delivery();
+                delivery.people = 4;
+                for (int j = 0; j < 4; j++) {
+                    delivery.pizzas.add(pizzas.get(pi));
+                    pi++;
                 }
+                deliveries.add(delivery);
+            }
+            for (int i = 0; i < nh && (pi <= (m - 3)); i++) {
+                GHC21PracticeProblem.Delivery delivery = new GHC21PracticeProblem.Delivery();
+                delivery.people = 3;
+                for (int j = 0; j < 3; j++) {
+                    delivery.pizzas.add(pizzas.get(pi));
+                    pi++;
+                }
+                deliveries.add(delivery);
+            }
+            for (int i = 0; i < nt && (pi <= (m - 2)); i++) {
+                GHC21PracticeProblem.Delivery delivery = new GHC21PracticeProblem.Delivery();
+                delivery.people = 2;
+                for (int j = 0; j < 2; j++) {
+                    delivery.pizzas.add(pizzas.get(pi));
+                    pi++;
+                }
+                deliveries.add(delivery);
             }
 
-            maxNodVal = query(subs.stream().flatMap(List::stream).collect(Collectors.toList()), in, out);
-            int mxInd;
-            Function<Integer, Boolean> func =
-                    ind -> (query(subs.subList(0, ind + 1).stream().flatMap(List::stream)
-                            .collect(Collectors.toList()), in, out) == maxNodVal);
-            if (k > 1) {
-                mxInd = BinarySearch.searchFirstOne(-1, k - 1, func);
-            } else {
-                mxInd = 0;
-            }
-            if (mxInd == k) {
-                throw new RuntimeException("Unexpected state. max val node is not found in array");
-            }
-            int[] ans = new int[k];
-
-            if (k != 1) {
-                List<Integer> allOtherNodes = IntStream.range(0, k).filter(y -> (y != mxInd)).boxed().map(subs::get)
-                        .flatMap(List::stream).collect(Collectors.toList());
-                List<Integer> nq = Stream.concat(allOtherNodes.stream(), otherList.stream())
-                        .collect(Collectors.toList());
-                int otherAns = query(nq, in, out);
-                if (otherAns > maxNodVal) {
-                    for (int i = 0; i < k; i++) {
-                        ans[i] = otherAns;
-                    }
-                } else {
-                    for (int i = 0; i < k; i++) {
-                        if (i != mxInd) {
-                            ans[i] = maxNodVal;
-                        }
-                    }
-                    ans[mxInd] = otherAns;
+            out.println(deliveries.size());
+            for (GHC21PracticeProblem.Delivery delivery : deliveries) {
+                out.print(delivery.people);
+                for (GHC21PracticeProblem.Pizza pizza : delivery.pizzas) {
+                    out.printf(" %d", pizza.id);
                 }
-            } else {
-                int otherAns = query(otherList, in, out);
-                ans[0] = otherAns;
+                out.println();
             }
-            output(ans, in, out);
         }
 
-        private int query(List<Integer> sub, InputReader in, OutputWriter out) {
-            Set<Integer> st = new HashSet<>(sub);
-            int c = sub.size();
-            out.print("? " + c);
-            for (int val : sub) {
-                out.print(" " + val);
-            }
-            out.println();
-            out.println();
-            out.flush();
+        private static class Pizza {
+            public int id;
+            public Set<String> ingredients;
 
-            int x = in.nextInt();
-            if (x == -1) {
-                throw new RuntimeException("x == -1 received");
+            public Pizza() {
+                this.ingredients = new TreeSet<>();
             }
 
-            return x;
         }
 
-        private void output(int[] password, InputReader in, OutputWriter out) {
-            out.print("!");
-            for (int val : password) {
-                out.print(" " + val);
-            }
-            out.println();
-            out.flush();
+        private static class Delivery {
+            public int people;
+            public List<GHC21PracticeProblem.Pizza> pizzas;
 
-            String outcome = in.nextString();
-            if (outcome.equals("Incorrect")) {
-                throw new RuntimeException("Incorrect assertion");
+            public Delivery() {
+                this.pizzas = new ArrayList<>();
             }
+
+        }
+
+    }
+
+    static class OutputWriter {
+        private final PrintWriter writer;
+
+        public OutputWriter(OutputStream outputStream) {
+            writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
+        }
+
+        public OutputWriter(Writer writer) {
+            this.writer = new PrintWriter(writer);
+        }
+
+        public void println() {
+            writer.println();
+        }
+
+        public void printf(String format, Object... objects) {
+            writer.printf(format, objects);
+        }
+
+        public void close() {
+            writer.close();
+        }
+
+        public void print(int i) {
+            writer.print(i);
+        }
+
+        public void println(int i) {
+            writer.println(i);
         }
 
     }
@@ -213,71 +222,9 @@ public class Main {
             return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
         }
 
-        public String next() {
-            return nextString();
-        }
-
-        public int[] nextIntArray(int n) {
-            int[] array = new int[n];
-            for (int i = 0; i < n; ++i) array[i] = nextInt();
-            return array;
-        }
-
         public interface SpaceCharFilter {
             public boolean isSpaceChar(int ch);
 
-        }
-
-    }
-
-    static class OutputWriter {
-        private final PrintWriter writer;
-
-        public OutputWriter(OutputStream outputStream) {
-            writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
-        }
-
-        public OutputWriter(Writer writer) {
-            this.writer = new PrintWriter(writer);
-        }
-
-        public void print(Object... objects) {
-            for (int i = 0; i < objects.length; i++) {
-                if (i != 0) {
-                    writer.print(' ');
-                }
-                writer.print(objects[i]);
-            }
-        }
-
-        public void println() {
-            writer.println();
-        }
-
-        public void close() {
-            writer.close();
-        }
-
-        public void flush() {
-            writer.flush();
-        }
-
-    }
-
-    static class BinarySearch {
-        public static int searchFirstOne(int start, int end, Function<Integer, Boolean> valueFunc) {
-            int low = start;
-            int high = end;
-            while ((high - low) > 1) {
-                int mid = low + (high - low) / 2;
-                if (valueFunc.apply(mid)) {
-                    high = mid;
-                } else {
-                    low = mid;
-                }
-            }
-
-            return high;
         }
 
     }

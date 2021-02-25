@@ -1,0 +1,44 @@
+{
+  "name" : "PortfolioMatching",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "Vodafone,STOCK,10|Google,STOCK,15|Microsoft,BOND,15:Vodafone,STOCK,15|Google,STOCK,10|Microsoft,BOND,15",
+    "output" : "SELL,Google,STOCK,5\nBUY,Vodafone,STOCK,5",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "Vodafone,STOCK,10|Google,STOCK,15:Vodafone,STOCK,15|Vodafone,BOND,10|Google,STOCK,10",
+    "output" : "SELL,Google,STOCK,5\nBUY,Vodafone,BOND,10\nBUY,Vodafone,STOCK,5",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "Vodafone,STOCK,10|Google,STOCK,15|Microsoft,BOND,15:Vodafone,STOCK,15|Google,STOCK,10|Microsoft,BOND,15",
+    "output" : "SELL,Google,STOCK,5\nBUY,Vodafone,STOCK,5",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/code",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "code.PortfolioMatching",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.08.21",
+  "contestName" : "Ishan Test",
+  "truncate" : true,
+  "inputClass" : "io.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

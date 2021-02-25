@@ -3,7 +3,6 @@ package datastructure;
 public class UnionFind {
     private int noOfSets;
     private int[] p;
-    private int n;
     private int[] rank;
     private int[] size;
 
@@ -14,9 +13,12 @@ public class UnionFind {
             p[i]=i;
             size[i]=1;
         }
-        this.n=n;
         rank = new int[n];
         this.noOfSets = n;
+    }
+
+    public boolean isSameSet(int i, int j) {
+        return (findSet(i) == findSet(j));
     }
 
     public void union(int i, int j) {
@@ -50,5 +52,9 @@ public class UnionFind {
 
     public int getSizeOfSet(int i) {
         return size[findSet(i)];
+    }
+
+    public int getNoOfSets() {
+        return noOfSets;
     }
 }
